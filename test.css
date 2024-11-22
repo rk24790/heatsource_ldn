@@ -1,0 +1,97 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #ffffff 0%, #f1c40f 100%); /* Gold-white gradient background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo img {
+    width: 180px;
+    height: auto;
+    border-radius: 50%; /* Circle profile image */
+    margin-bottom: 20px;
+    border: 5px solid #f1c40f; /* Gold border to match profile picture */
+}
+
+h1 {
+    font-size: 36px;
+    color: #c0392b; /* Red color for title */
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Link button styles */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link-btn {
+    display: flex;
+    align-items: center; /* Align icons and text in the center */
+    justify-content: center; /* Center the entire button */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff; /* White text */
+    background-color: #c0392b; /* Red background to match profile picture */
+    border: 2px solid #f1c40f; /* Gold border */
+    padding: 15px 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.link-btn img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    object-fit: contain;
+    vertical-align: middle; /* Ensure icon is vertically aligned */
+}
+
+/* Hover effect on the buttons */
+.link-btn:hover {
+    background-color: #f1c40f; /* Gold background on hover */
+    color: #c0392b; /* Red text on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5); /* Subtle shadow on hover */
+}
+
+.link-btn:hover img {
+    filter: brightness(1.2);
+}
+
+/* Instagram button specific styles */
+.instagram-btn img {
+    width: 35px; /* Slightly larger size for Instagram icon */
+    height: 35px;
+}
+
+/* TikTok button specific styles */
+.tiktok-btn img {
+    width: 35px; /* Slightly larger size for TikTok icon */
+    height: 35px;
+}
+
+/* Adjust spacing between the icon and text */
+.link-btn span {
+    display: inline-block;
+    vertical-align: middle;
+}
