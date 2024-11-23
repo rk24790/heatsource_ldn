@@ -7,7 +7,7 @@
 }
 
 body {
-    background: linear-gradient(180deg, #ffffff 0%, #f1c40f 100%); /* Gold-white gradient background */
+    background-color: #000000; /* Black background */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -23,12 +23,12 @@ body {
     height: auto;
     border-radius: 50%; /* Circle profile image */
     margin-bottom: 20px;
-    border: 5px solid #f1c40f; /* Gold border to match profile picture */
+    border: 5px solid #ff0000; /* Red border around the logo */
 }
 
 h1 {
     font-size: 36px;
-    color: #c0392b; /* Red color for title */
+    color: #ff0000; /* Red color for title */
     margin-bottom: 30px;
     font-weight: bold;
     text-transform: uppercase;
@@ -50,8 +50,8 @@ h1 {
     font-size: 18px;
     font-weight: 600;
     color: #ffffff; /* White text */
-    background-color: #c0392b; /* Red background to match profile picture */
-    border: 2px solid #f1c40f; /* Gold border */
+    background-color: #000000; /* Black button background */
+    border: 2px solid #ff0000; /* Red outline */
     padding: 15px 20px;
     border-radius: 30px;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
@@ -68,10 +68,10 @@ h1 {
 
 /* Hover effect on the buttons */
 .link-btn:hover {
-    background-color: #f1c40f; /* Gold background on hover */
-    color: #c0392b; /* Red text on hover */
+    background-color: #ff0000; /* Red background on hover */
+    color: #000000; /* Black text on hover */
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5); /* Subtle shadow on hover */
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.5); /* Red shadow on hover */
 }
 
 .link-btn:hover img {
