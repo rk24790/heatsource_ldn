@@ -20,7 +20,7 @@ body {
 
 .logo img {
     width: 180px;
-    height: auto;
+    height: 180px;
     border-radius: 50%; /* Circle profile image */
     margin-bottom: 20px;
     border: 5px solid #ff0000; /* Red border around the logo */
@@ -95,3 +95,14 @@ h1 {
     display: inline-block;
     vertical-align: middle;
 }
+
+
+
+
+
+
+
+
+
+
+
